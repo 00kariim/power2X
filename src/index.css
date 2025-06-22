@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@import "./fonts.css";
+
+@theme {
+    --font-sans: "Aeonik Pro", sans-serif;
+    --color-primary: #ffcc00;
+  }
+
+
+  body {
+    font-family: var(--font-sans);
+  }
